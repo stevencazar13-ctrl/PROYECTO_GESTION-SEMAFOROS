@@ -20,7 +20,7 @@ Este sistema busca aplicar la programación concurrente para optimizar el flujo 
 
 ## Objetivos del Proyecto
 
-[cite_start]El objetivo general es **diseñar e implementar un sistema de sincronización semafórica** usando Go para optimizar el flujo vehicular.
+El objetivo general es **diseñar e implementar un sistema de sincronización semafórica** usando Go para optimizar el flujo vehicular.
 
 Los objetivos específicos incluyen:
 1.  Analizar algoritmos de sincronización existentes
@@ -101,5 +101,6 @@ func main() {
     semaforoEscuela.Ciclo = 20.0
     fmt.Printf("Nuevo ciclo: %.1f segundos\n", semaforoEscuela.Ciclo)
 }
+
 
 
