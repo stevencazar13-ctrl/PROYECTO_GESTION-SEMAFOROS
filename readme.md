@@ -9,12 +9,12 @@ Proyecto de investigación aplicada para un sistema de sincronización de semáf
 
 Este proyecto es un sistema para la sincronización de semáforos urbanos, desarrollado en el lenguaje de programación Go como parte de la asignatura de Programación Estructurada y Funcional.
 
-La congestión de tráfico en ciudades como Quito genera múltiples problemas[cite: 12], entre ellos:
+La congestión de tráfico en ciudades como Quito genera múltiples problemas, entre ellos:
 
-* Incremento en tiempos de viaje [cite: 15]
-* Mayor consumo de combustible [cite: 16]
-* Aumento en emisiones contaminantes [cite: 17]
-* Estrés en conductores y pasajeros [cite: 18]
+* Incremento en tiempos de viaje
+* Mayor consumo de combustible 
+* Aumento en emisiones contaminantes 
+* Estrés en conductores y pasajeros 
 
 Este sistema busca aplicar la programación concurrente para optimizar el flujo vehicular y mitigar estos problemas.
 
@@ -23,10 +23,10 @@ Este sistema busca aplicar la programación concurrente para optimizar el flujo 
 [cite_start]El objetivo general es **diseñar e implementar un sistema de sincronización semafórica** usando Go para optimizar el flujo vehicular.
 
 Los objetivos específicos incluyen:
-1.  Analizar algoritmos de sincronización existentes[cite: 27].
-2.  Diseñar la arquitectura del sistema usando patrones concurrentes[cite: 28].
-3.  Implementar el núcleo del sistema en Go[cite: 29].
-4.  Validar el funcionamiento mediante simulaciones[cite: 30].
+1.  Analizar algoritmos de sincronización existentes
+2.  Diseñar la arquitectura del sistema usando patrones concurrentes
+3.  Implementar el núcleo del sistema en Go
+4.  Validar el funcionamiento mediante simulaciones
 
 ---
 
@@ -101,4 +101,5 @@ func main() {
     semaforoEscuela.Ciclo = 20.0
     fmt.Printf("Nuevo ciclo: %.1f segundos\n", semaforoEscuela.Ciclo)
 }
+
 
