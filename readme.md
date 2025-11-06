@@ -1,10 +1,10 @@
-Sistema de Sincronización de Semáforos en Go
+#Sistema de Sincronización de Semáforos en Go
 Este proyecto es un sistema para la sincronización de semáforos urbanos, desarrollado en el lenguaje de programación Go. Su objetivo es optimizar el flujo vehicular usando programación concurrente.
 
-Contexto
+#Contexto
 La congestión de tráfico genera múltiples problemas, como aumento en los tiempos de viaje, mayor consumo de combustible y estrés en los conductores. Una sincronización inteligente de semáforos puede reducir estos problemas.
 
-Objetivo Principal
+#Objetivo Principal
 Diseñar e implementar un sistema de sincronización semafórica usando Go para optimizar el flujo vehicular.
 
 Tecnologías Utilizadas
@@ -77,5 +77,6 @@ func main() {
 }
 Autores
 Juan Sebastián Báez Fuentes
+
 
 Steven Cazar
